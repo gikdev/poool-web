@@ -5,6 +5,7 @@
       "name": "poool",
       "dependencies": {
         "@master/styled.react": "^2.0.4",
+        "@phosphor-icons/react": "^2.1.7",
         "@tailwindcss/vite": "^4.0.13",
         "react": "^19.0.0",
         "react-dom": "^19.0.0",
@@ -141,6 +142,8 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.25", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="],
 
     "@master/styled.react": ["@master/styled.react@2.0.4", "", { "dependencies": { "class-variant": "^2.0.4", "clsx": "^2.1.0" }, "peerDependencies": { "@types/react": ">=16", "react": ">=16", "react-dom": ">=16" } }, "sha512-tLMn0w+5iKMEJS3JPLYQ9tmp2oeYshlGzBhpTxJJEjaoSqp6WzG0jSnZZ8vbOoGAA7xkMTxNXDhs/n0ZJ/aOVA=="],
+
+    "@phosphor-icons/react": ["@phosphor-icons/react@2.1.7", "", { "peerDependencies": { "react": ">= 16.8", "react-dom": ">= 16.8" } }, "sha512-g2e2eVAn1XG2a+LI09QU3IORLhnFNAFkNbo2iwbX6NOKSLOwvEMmTa7CgOzEbgNWR47z8i8kwjdvYZ5fkGx1mQ=="],
 
     "@rollup/rollup-android-arm-eabi": ["@rollup/rollup-android-arm-eabi@4.35.0", "", { "os": "android", "cpu": "arm" }, "sha512-uYQ2WfPaqz5QtVgMxfN6NpLD+no0MYHDBywl7itPYd3K5TjjSghNKmX8ic9S8NU8w81NVhJv/XojcHptRly7qQ=="],
 

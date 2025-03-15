@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router"
 import BaseLayout from "#/BaseLayout"
-import Home from "./home"
 import Budgets from "./budgets"
 import Expenses from "./expenses"
+import Home from "./home"
 
 export default function Pages() {
   return (
