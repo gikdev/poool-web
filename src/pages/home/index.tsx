@@ -1,3 +1,10 @@
+import WIP from "#/components/WIP"
+
 export default function Home() {
-  return <h1>صفحه اصلی</h1>
+  return (
+    <div>
+      <h1>صفحه اصلی</h1>
+      <WIP />
+    </div>
+  )
 }
