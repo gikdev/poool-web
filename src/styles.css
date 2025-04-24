@@ -1,3 +1,8 @@
+@import "./assets/fonts/vazirmatn/vazirmatn.css";
 @import "tailwindcss";
 @import "foree/lib/simple-theme-tw.css";
 @source "../node_modules/foree/src/";
+
+@theme {
+  --font-main: Vazirmatn, sans-serif;
+}
