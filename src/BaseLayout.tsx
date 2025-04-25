@@ -3,11 +3,11 @@ import { TabBar, type TabBarItem } from "foree/components"
 import { Outlet } from "react-router"
 
 const tabBarItems: TabBarItem[] = [
-  { icon: Receipt, path: "/expenses", title: "خرجی‌ها", disabled: true },
-  { icon: HandCoins, path: "/income", title: "ورودی‌ها", disabled: true },
+  { icon: Receipt, path: "/expenses", title: "خرجی‌ها" },
+  { icon: HandCoins, path: "/income", title: "ورودی‌ها" },
   { icon: House, path: "/", title: "خانه" },
-  { icon: Coins, path: "/networth", title: "ثروت", disabled: true },
-  { icon: GridFour, path: "/budgets", title: "بودجه‌ها", disabled: true },
+  { icon: Coins, path: "/networth", title: "ثروت" },
+  { icon: GridFour, path: "/budgets", title: "بودجه‌ها" },
 ]
 
 export default function BaseLayout() {

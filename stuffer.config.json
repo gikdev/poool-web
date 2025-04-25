@@ -1,14 +1,14 @@
 {
-  "currentUrlName": "dep",
   "urls": {
     "dep": "",
     "prod": ""
   },
   "version": {
-    "major": 1,
-    "minor": 3,
-    "patch": 15,
-    "stuff": 4,
-    "mode": "beta"
-  }
+    "major": 0,
+    "minor": 0,
+    "patch": 0,
+    "stuff": 0,
+    "mode": ""
+  },
+  "currentUrlName": "prod"
 }

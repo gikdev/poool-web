@@ -1,4 +1,4 @@
-interface Version {
+export interface Version {
   major: number
   minor: number
   patch: number
@@ -8,7 +8,7 @@ interface Version {
 
 type Urls = Record<string, string>
 
-interface StufferConfigCtorProps {
+export interface StufferConfigCtorProps {
   urls: Urls
   currentUrlName: string
   version: Version
