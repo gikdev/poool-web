@@ -21,6 +21,7 @@
         "@types/react-dom": "^19.0.4",
         "@vitejs/plugin-react": "^4.3.4",
         "adm-zip": "^0.5.16",
+        "commander": "^13.1.0",
         "enquirer": "^2.4.1",
         "globals": "^16.0.0",
         "typescript": "~5.8.2",
@@ -254,6 +255,8 @@
     "class-variant": ["class-variant@2.0.4", "", { "dependencies": { "clsx": "^2.1.0" } }, "sha512-HZZoC2CoYwnPw7hS82lySAJPQlUdngDEAteUe8zvFnvXOxtIGTu0kHtJPp2kNKv10w3e+hh7r/aa7elZVrzF9g=="],
 
     "clsx": ["clsx@2.1.1", "", {}, "sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA=="],
+
+    "commander": ["commander@13.1.0", "", {}, "sha512-/rFeCpNJQbhSZjGVwO9RFV3xPqbnERS8MmIQzCtD/zl6gpJuV/bMLuN92oG3F7d8oDEHHRrujSXNUr8fpjntKw=="],
 
     "convert-source-map": ["convert-source-map@2.0.0", "", {}, "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg=="],
 
