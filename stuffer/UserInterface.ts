@@ -7,7 +7,7 @@ export class UserInterface {
       type: "select",
       name: "level",
       message: "Select version increment:",
-      choices: ["major", "minor", "patch", "stuff", "none"],
+      choices: ["none", "major", "minor", "patch", "stuff"],
     })
     return level
   }

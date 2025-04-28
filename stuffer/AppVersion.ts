@@ -10,7 +10,27 @@ export class AppVersion {
   ) {}
 
   increment(level: VersionIncrementLevel): this {
-    if (level !== "none") this[level] += 1
+    switch (level) {
+      case "major":
+        this.major += 1
+        this.minor = 0
+        this.patch = 0
+        this.stuff = 0
+        break
+      case "minor":
+        this.minor += 1
+        this.patch = 0
+        this.stuff = 0
+        break
+      case "patch":
+        this.patch += 1
+        this.stuff = 0
+        break
+      case "stuff":
+        this.stuff += 1
+        break
+    }  
+
     return this
   }
 

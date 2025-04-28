@@ -7,7 +7,7 @@ export async function cli() {
   const program = new Command()
     .name("stuffer")
     .description("Build and deployment tool")
-    .version("v0.0.0")
+    .version("v1.0.1")
 
   // Version command
   program
